@@ -103,9 +103,7 @@ The tests verify:
 
 > Screenshot of the application output after running `java -jar target/collections.jar`
 
-```md
 ![Application Console Output](screenshots/application-output.png)
-```
 
 ---
 
@@ -113,9 +111,7 @@ The tests verify:
 
 > Screenshot of successful test execution using `mvn test`
 
-```md
 ![Test Execution Output](screenshots/test-output.png)
-```
 
 ---
 
@@ -123,9 +119,7 @@ The tests verify:
 
 > Screenshot of the project structure from your IDE (IntelliJ / Eclipse)
 
-```md
 ![Project Structure](screenshots/project-structure.png)
-```
 
 ---
 
