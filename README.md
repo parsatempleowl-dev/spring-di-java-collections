@@ -129,26 +129,6 @@ The tests verify:
 
 ---
 
-### Test Execution Output
-
-> *(Insert screenshot showing successful test execution here)*
-
-```
-[SCREENSHOT PLACEHOLDER – mvn test output]
-```
-
----
-
-### Project Structure (IDE View)
-
-> *(Optional: Insert screenshot of project structure from IDE)*
-
-```
-[SCREENSHOT PLACEHOLDER – Project Structure]
-```
-
----
-
 ## ✅ Key Takeaways
 
 * Demonstrates Spring DI with Java Collections
