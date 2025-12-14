@@ -3,6 +3,7 @@ package com.example.collections.service;
 import com.example.collections.domain.Category;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Component;
 
 @Component
@@ -15,9 +16,11 @@ public class CollectingBean {
     private final Category categoryBeanSet;
     private final Category categoryBeanMap;
 
-    public CollectingBean(Category categoryBeanList,
-                          Category categoryBeanSet,
-                          Category categoryBeanMap) {
+    public CollectingBean(
+            @Qualifier("categoryBeanList") Category categoryBeanList,
+            @Qualifier("categoryBeanSet") Category categoryBeanSet,
+            @Qualifier("categoryBeanMap") Category categoryBeanMap
+    ) {
         this.categoryBeanList = categoryBeanList;
         this.categoryBeanSet = categoryBeanSet;
         this.categoryBeanMap = categoryBeanMap;
